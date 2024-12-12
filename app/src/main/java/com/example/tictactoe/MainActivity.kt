@@ -18,9 +18,9 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
 
         setContent {
-            ComposeApplicationTheme {
-                GameScreen(viewModel = GameViewModel())
-            }
+
+            GameScreen(viewModel = GameViewModel())
+
         }
     }
 
@@ -28,11 +28,7 @@ class MainActivity : ComponentActivity() {
 }
 
 
-
 @Preview(showBackground = true)
 @Composable
-fun GreetingPreview() {
-    ComposeApplicationTheme {
-        GameScreen(GameViewModel())
-    }
-}
+fun GreetingPreview() = GameScreen(GameViewModel())
+

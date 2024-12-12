@@ -87,9 +87,6 @@ class GameViewModel : ViewModel() {
         state = state.copy(
             currentTurn = BoardValues.CROSS,
             hintText = "Player 'X turn",
-            playerOCount = 0,
-            playerXCount = 0,
-            drawCount = 0,
             hasWon = false,
             victoryType = VictoryType.NONE,
 
