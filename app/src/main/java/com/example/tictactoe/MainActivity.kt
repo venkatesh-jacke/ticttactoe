@@ -16,12 +16,23 @@ import com.example.tictactoe.ui.theme.TicTacToeTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
-        setContent {
-            TicTacToeTheme {
 
+        setContent {
+            ComposeApplicationTheme {
+                GameScreen(viewModel = GameViewModel())
             }
         }
     }
+
+
 }
 
+
+
+@Preview(showBackground = true)
+@Composable
+fun GreetingPreview() {
+    ComposeApplicationTheme {
+        GameScreen(GameViewModel())
+    }
+}
