@@ -2,6 +2,8 @@
 
 A modern implementation of the classic Tic-Tac-Toe game built in **Android** using **Jetpack Compose**. This app demonstrates a clean architecture approach, leveraging **ViewModels**, **Canvas**, and **Sealed Classes** for an intuitive and interactive gaming experience.
 
+![GameScreen](https://github.com/venkatesh-jacke/ticttactoe/blob/master/Gamecreen.png)
+
 ---
 
 ## Features
