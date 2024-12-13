@@ -5,8 +5,6 @@ A modern implementation of the classic Tic-Tac-Toe game built in **Android** usi
 <img src="https://github.com/venkatesh-jacke/ticttactoe/blob/master/Gamecreen.png?raw=true" width="200" height="400" />
 
 
-![GameScreen](https://github.com/venkatesh-jacke/ticttactoe/blob/master/Gamecreen.png)
-
 ---
 
 ## Features
